@@ -4,9 +4,30 @@
     box-sizing: border-box;
 }
 
+.header {
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: chartreuse;
+    color: brown;
+}
 
-.navigate {
- color: red;
- 
+.header nav ul li {
+    display: inline;
+}
 
+.header nav ul li a {
+    color: red;
+    font-size: large;
+}
+
+.section {
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkmagenta;
+    color: goldenrod;
+}
+    
+.section img {
+    border: 1px solid red;
+    border-radius: 50%;
 }
