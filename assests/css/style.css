@@ -21,7 +21,7 @@
 }
 
 .section {
-    padding: 50px;
+    padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: darkmagenta;
     color: goldenrod;
@@ -29,5 +29,29 @@
     
 .section img {
     border: 1px solid red;
-    border-radius: 50%;
+    border-radius: 2%;
+}
+
+.flex-container {
+    display: flex;
+    background-color: coral;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    background-color: blueviolet;
+    color: blue;
+    margin: 30px;
+    border: 260px;
+    padding: 250px;
+    font-size:130px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+    
+}
+
+.rise {
+    color: red;
 }
